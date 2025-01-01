@@ -81,10 +81,9 @@ const Navbar = () => {
         {isClicked.cart && (<Cart />)}
         {isClicked.chat && (<Chat />)}
         {isClicked.notification && (<Notification />)}
-        {isClicked.userProfile && (<UserProfile />)}
+        {isClicked.userProfile && (<UserProfile />)} // tells what happen when you click in userprofile.
       </div>
     </div>
   );
 };
-
 export default Navbar;
